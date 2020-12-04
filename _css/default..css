@@ -3,13 +3,6 @@
 
 body { font-family:monospace; }
 
-<!--
-Shawdows to elements with CSS3.
-
-Instructions: Double click to paste this code in your .css file and apply this div <div class="name"> </div> to your text (name=darkshadow|lightshadow|innershadow, etc.). 
-Values for box-shawdow are: horizontal offset, vertical offset, blur radius and shawdow color.
-Also, include the call to the .css file between the <head> and </head> tags. Example: <link rel="stylesheet" type="text/css" href="css/myelements.css"/> 
--->
 .darkshadow
 {
    background-color: #ddd;
