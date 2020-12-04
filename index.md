@@ -1,44 +1,37 @@
-<!--
-Shawdows to elements with CSS3.
+## Welcome to GitHub Pages
 
-Instructions: Double click to paste this code in your .css file and apply this div <div class="name"> </div> to your text (name=darkshadow|lightshadow|innershadow, etc.). 
-Values for box-shawdow are: horizontal offset, vertical offset, blur radius and shawdow color.
-Also, include the call to the .css file between the <head> and </head> tags. Example: <link rel="stylesheet" type="text/css" href="css/myelements.css"/> 
--->
-.darkshadow
-{
-   background-color: #ddd;
-   width: 300px;
-   padding: 10px;
-   
-   box-shadow: 10px 10px 15px #000;
-   -webkit-box-shadow: 10px 10px 15px #000;
-   -moz-box-shadow: 10px 10px 15px #000;
-}
+You can use the [editor on GitHub](https://github.com/Bill-Rishsew/bill-rishsew.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
-.lightshadow
-{  
-   background-color: #999;
-   width: 200px;
-   padding: 10px;
-   color: #fff;
-   
-   box-shadow: 4px 4px 2px #ffc;
-   -webkit-box-shadow: 4px 4px 2px #ffc;
-   -moz-box-shadow: 4px 4px 2px #ffc;
-} 
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-.innershadow
-{  
-   background-color: #fff;
-   width: 200px;
-   padding: 10px;
+### Markdown
 
-   -moz-box-shadow: inset 0 0 1em gold;
-   -webkit-box-shadow: inset 0 0 1em gold;
-   box-shadow: inset 0 0 1em gold;
-}
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-## Welcome to my site
+```markdown
+Syntax highlighted code block
 
-<div class="darkshadow">Hello, World!</div>
+# Header 1
+## Header 2
+### Header 3
+
+- Bulleted
+- List
+
+1. Numbered
+2. List
+
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
+```
+
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+### Jekyll Themes
+
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Bill-Rishsew/bill-rishsew.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+
+### Support or Contact
+
+Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
